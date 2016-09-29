@@ -1,0 +1,8 @@
+prefix=/home/sriramana/aslam_ws/install
+
+Name: aslam_demo
+Description: Description of aslam_demo
+Version: 0.0.0
+Cflags: -I/home/sriramana/aslam_ws/install/include -I/usr/lib/cmake/GTSAM/../../../include -I/home/sriramana/bnr_robot_software/src/bnr_autonomy/bnr_localization/csm/include
+Libs: -L/home/sriramana/aslam_ws/install/lib -l:/usr/lib/libgtsam.so.2.3.1 -lcsm -lgsl -lgslcblas -lm -lyaml-cpp
+Requires: geometry_msgs gtsam_ros pcl_ros roscpp rospy std_msgs nav_msgs sensor_msgs csm_ros laser_geometry

@@ -1,0 +1,8 @@
+prefix=/home/sriramana/aslam_ws/install
+
+Name: gtsam_ros
+Description: Description of gtsam_ros
+Version: 0.0.0
+Cflags: -I/home/sriramana/aslam_ws/install/include -I/usr/include/eigen3 -I/usr/lib/cmake/GTSAM/../../../include
+Libs: -L/home/sriramana/aslam_ws/install/lib -lgtsam_ros -l:/usr/lib/libgtsam.so.2.3.1
+Requires: roscpp
