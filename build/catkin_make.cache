@@ -1,2 +1,2 @@
 aslam_demo:csm_ros:gtsam_ros
--DCATKIN_DEVEL_PREFIX=/home/sriramana/aslam_ws/devel -DCMAKE_INSTALL_PREFIX=/home/sriramana/aslam_ws/install -G Unix Makefiles
+-DCMAKE_BUILD_TYPE=Debug -DCATKIN_DEVEL_PREFIX=/home/sriramana/aslam_ws/devel -DCMAKE_INSTALL_PREFIX=/home/sriramana/aslam_ws/install -G Unix Makefiles

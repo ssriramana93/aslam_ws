@@ -441,6 +441,30 @@ src/aslam_demo/mapping/mapping_common.cpp.s:
 	cd /home/sriramana/aslam_ws/build && $(MAKE) -f aslam_demo/CMakeFiles/aslam_demo.dir/build.make aslam_demo/CMakeFiles/aslam_demo.dir/src/aslam_demo/mapping/mapping_common.cpp.s
 .PHONY : src/aslam_demo/mapping/mapping_common.cpp.s
 
+src/aslam_demo/mapping/odometry_processing.o: src/aslam_demo/mapping/odometry_processing.cpp.o
+.PHONY : src/aslam_demo/mapping/odometry_processing.o
+
+# target to build an object file
+src/aslam_demo/mapping/odometry_processing.cpp.o:
+	cd /home/sriramana/aslam_ws/build && $(MAKE) -f aslam_demo/CMakeFiles/aslam_demo.dir/build.make aslam_demo/CMakeFiles/aslam_demo.dir/src/aslam_demo/mapping/odometry_processing.cpp.o
+.PHONY : src/aslam_demo/mapping/odometry_processing.cpp.o
+
+src/aslam_demo/mapping/odometry_processing.i: src/aslam_demo/mapping/odometry_processing.cpp.i
+.PHONY : src/aslam_demo/mapping/odometry_processing.i
+
+# target to preprocess a source file
+src/aslam_demo/mapping/odometry_processing.cpp.i:
+	cd /home/sriramana/aslam_ws/build && $(MAKE) -f aslam_demo/CMakeFiles/aslam_demo.dir/build.make aslam_demo/CMakeFiles/aslam_demo.dir/src/aslam_demo/mapping/odometry_processing.cpp.i
+.PHONY : src/aslam_demo/mapping/odometry_processing.cpp.i
+
+src/aslam_demo/mapping/odometry_processing.s: src/aslam_demo/mapping/odometry_processing.cpp.s
+.PHONY : src/aslam_demo/mapping/odometry_processing.s
+
+# target to generate assembly for a file
+src/aslam_demo/mapping/odometry_processing.cpp.s:
+	cd /home/sriramana/aslam_ws/build && $(MAKE) -f aslam_demo/CMakeFiles/aslam_demo.dir/build.make aslam_demo/CMakeFiles/aslam_demo.dir/src/aslam_demo/mapping/odometry_processing.cpp.s
+.PHONY : src/aslam_demo/mapping/odometry_processing.cpp.s
+
 src/aslam_demo/mapping/optimization_processing.o: src/aslam_demo/mapping/optimization_processing.cpp.o
 .PHONY : src/aslam_demo/mapping/optimization_processing.o
 
@@ -582,6 +606,9 @@ help:
 	@echo "... src/aslam_demo/mapping/mapping_common.o"
 	@echo "... src/aslam_demo/mapping/mapping_common.i"
 	@echo "... src/aslam_demo/mapping/mapping_common.s"
+	@echo "... src/aslam_demo/mapping/odometry_processing.o"
+	@echo "... src/aslam_demo/mapping/odometry_processing.i"
+	@echo "... src/aslam_demo/mapping/odometry_processing.s"
 	@echo "... src/aslam_demo/mapping/optimization_processing.o"
 	@echo "... src/aslam_demo/mapping/optimization_processing.i"
 	@echo "... src/aslam_demo/mapping/optimization_processing.s"

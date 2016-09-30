@@ -12,6 +12,7 @@ FILE(REMOVE_RECURSE
   "CMakeFiles/aslam_demo.dir/src/aslam_demo/mapping/laserscan_processing.cpp.o"
   "CMakeFiles/aslam_demo.dir/src/aslam_demo/mapping/csm_processing.cpp.o"
   "CMakeFiles/aslam_demo.dir/src/aslam_demo/aslam_demo.cpp.o"
+  "CMakeFiles/aslam_demo.dir/src/aslam_demo/mapping/odometry_processing.cpp.o"
   "/home/sriramana/aslam_ws/devel/lib/libaslam_demo.pdb"
   "/home/sriramana/aslam_ws/devel/lib/libaslam_demo.so"
 )
