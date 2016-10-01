@@ -1,1 +1,0 @@
-set(ORDERED_PATHS "/home/sriramana/bnr_robot_software/devel/lib;/opt/ros/indigo/lib")

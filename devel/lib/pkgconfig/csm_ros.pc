@@ -1,8 +1,0 @@
-prefix=/home/sriramana/aslam_ws/devel
-
-Name: csm_ros
-Description: Description of csm_ros
-Version: 0.0.0
-Cflags: -I/home/sriramana/aslam_ws/src/csm_ros/include
-Libs: -L/home/sriramana/aslam_ws/devel/lib -lcsm_ros
-Requires: csm laser_geometry pcl_ros roscpp sensor_msgs
